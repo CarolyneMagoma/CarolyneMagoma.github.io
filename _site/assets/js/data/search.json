@@ -1,0 +1,38 @@
+[
+  
+  {
+    "title": "Message from heaven(BitCTF)",
+    "url": "/posts/Cloud-Computing/",
+    "categories": "cloud computing",
+    "tags": "cloud security",
+    "date": "2025-04-05 00:00:00 +0300",
+    
+
+
+
+
+
+    
+    "snippet": "Message from heavenChallenge DescriptionGoalRecover the hidden flag without directly connecting to any services. This is a reconnaissance and cloud misconfiguration challenge.Analyzing the ClueThe ...",
+    "content": "Message from heavenChallenge DescriptionGoalRecover the hidden flag without directly connecting to any services. This is a reconnaissance and cloud misconfiguration challenge.Analyzing the ClueThe key hint provided was:  vuln4ppcl0uds3cThis looked like a reference to a cloud-related resource. Interpreting the leetspeak gives:vuln – likely “vulnerable”4pp – “app”cl0ud – “cloud”s3c – “sec” for “security”This suggested a possibly misconfigured Amazon S3 bucket.Bucket ReconnaissanceUsing the standard S3 bucket URL pattern:http://.s3.amazonaws.com/I visitedhttp://vuln4ppcl0uds3c.s3.amazonaws.com/Initially, this returned an XML PermanentRedirect, confirming the bucket exists but must be accessed via the correct endpoint.Accessing the BucketTrying the corrected regional endpoint:http://vuln4ppcl0uds3c.s3.amazonaws.com/This time, the bucket returned an XML directory listing with one file:The_flag_from_heaven.txtRetrieving the FlagVisiting the full path:http://vuln4ppcl0uds3c.s3.amazonaws.com/The_flag_from_heaven.txtRevealed the flag content:Happy hacking, happy hunting"
+  },
+  
+  {
+    "title": "networking",
+    "url": "/posts/inter-vlan/",
+    "categories": "networking",
+    "tags": "networking",
+    "date": "2025-02-26 19:00:00 +0300",
+    
+
+
+
+
+
+    
+    "snippet": "inter-vlan configurationAn Inter-VLAN (Virtual Local Area Network) is a logical network segment that allows network administrators to partition a single physical network into multiple smaller netwo...",
+    "content": "inter-vlan configurationAn Inter-VLAN (Virtual Local Area Network) is a logical network segment that allows network administrators to partition a single physical network into multiple smaller networks."
+  }
+  
+]
+
