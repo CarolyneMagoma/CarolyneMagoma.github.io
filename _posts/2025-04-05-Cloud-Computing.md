@@ -1,8 +1,8 @@
 ---
 title: "Message from heaven(BitCTF)"
 date:2025-05-05 10:00: +0800
-tags: [cloud security]
-category: [cloud computing]
+tags: [misc]
+category: [ctf writeups]
 
 ---
 # Message from heaven 

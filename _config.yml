@@ -16,19 +16,22 @@ timezone:
 
 title: carolyne # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: "Think Cloud. Build Secure. Connect Smart."
+
+ # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
- A blog dedicated to only creating networking projects using cisco packet tracer and ensp and cybersecurity at large 
+ A blog for IT professionals exploring cloud computing, cybersecurity, and networking—focused on smart, secure, and future-ready tech solutions.
+ Think Cloud. Build Secure. Connect Smart.
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://carolyne681.github.io"
 
 github:
-  username: github_username # change to your GitHub username
+  username: carolyne681 # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: CarolyneMa81714 # change to your Twitter username
 
 social:
   # Change to your full name.
@@ -37,8 +40,8 @@ social:
   email: magomacarolyne@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://x.com/CarolyneMa81714 # change to your Twitter homepage
+    - https://www.linkedin.com/in/carolyne-magoma-840bb2271/ # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
