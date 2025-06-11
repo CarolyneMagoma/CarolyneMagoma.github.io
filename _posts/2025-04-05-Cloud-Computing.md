@@ -1,8 +1,8 @@
 ---
 title: "Message from heaven(BitCTF)"
 date:2025-05-05 10:00: +0800
-tags: [misc]
-category: [ctf writeups]
+tags: [Misc]
+category: [CTF writeups]
 
 ---
 # Message from heaven 

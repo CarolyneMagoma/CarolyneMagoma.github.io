@@ -1,8 +1,8 @@
 ---
 title: "Silent Supernova 1"
 date:2025-05-05 10:00: +0800
-tags: [forensics]
-category: [ctf writeups]
+tags: [Forensics]
+category: [CTF writeups]
 ---
 # Silent Supernova1 Challenge Writeup – BitCTF.   
 
