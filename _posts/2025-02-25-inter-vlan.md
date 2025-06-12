@@ -18,7 +18,7 @@ Design a network in CISCO packet tracer to connect two departments through the f
 # Network topology
 The network topology consists of two departments, each equipped with two PCs, a switch, and connected through a router. Department A and Department B are organized to ensure efficient communication while maintaining distinct subnets. In Department A, the PCs are connected to a switch, which in turn connects to the router, allowing access to Department B. The router serves as the central point for inter-departmental communication, using two interfaces configured with appropriate IP addresses for each subnet. This design enables seamless connectivity and efficient data transfer between the departments, ensuring that devices can easily communicate with one another while being properly segmented within the network.
 
-![networktopology](assets/images/2025-06-10 12_39_24-cisco packet tracer.png)
+![networktopology](assets/images/2025-06-10_12_39_24-cisco_packet_tracer.png)
 
 
 # Subnetting.
@@ -65,31 +65,31 @@ To configure the router for the newly created subnets, first access the router's
 
 The g0/0 interface is configured with the IP address 192.168.40.1 and a subnet mask of 255.255.255.128. This interface serves as the gateway for devices in Subnet 1 (192.168.40.0/25). By assigning this IP address, the router facilitates communication between devices within this subnet and allows them to access other networks. The subnet mask indicates that the first 25 bits of the address are used for the network portion, leaving sufficient host addresses for devices within this subnet.
 
-![networktopology](assets/images/2025-06-10 12_48_27-Router0.png)
+![networktopology](assets/images/2025-06-10_12_48_27-Router0.png)
 
 The g0/1 interface is configured with the IP address 192.168.40.129 and the same subnet mask of 255.255.255.128. This interface functions as the gateway for devices in Subnet 2 (192.168.40.128/25). Similar to g0/0, this configuration enables devices in this subnet to communicate with each other and with devices in other networks. The subnet mask here also designates the first 25 bits for the network, providing a structured method for IP addressing and efficient routing between the two subnets.
 
-![networktopology](assets/images/2025-06-10 12_49_58-interface2.png)
+![networktopology](assets/images/2025-06-10_12_49_58-interface2.png)
 
 
 # configuring pcs
 
 To configure IP addresses on PCs in Cisco Packet Tracer, First, click on the PC you want to configure and open the Desktop tab. Then, select IP Configuration. In the IP Configuration window, enter the assigned IP address (e.g., 192.168.40.2 for PC1) and the appropriate subnet mask (e.g., 255.255.255.128). Next, input the default gateway (e.g., 192.168.40.1 for PC1). Repeat this process for each PC, using the specified IP addresses and gateways for each department. Once configured, the PCs will be able to communicate within their subnets and with other devices on the network.
 
-![description](assets/images/2025-06-10 20_01_39-pc-a1.png)
+![description](assets/images/2025-06-10_20_01_39-pc-a1.png)
 
 
-![description](assets/images/2025-06-10 20_03_14-pc-a1-2.png)
+![description](assets/images/2025-06-10_20_03_14-pc-a1-2.png)
 
 # Pinging devices
 The ping command is used to test the connectivity between devices on a network by sending Internet Control Message Protocol (ICMP) Echo Request packets to the specified IP address—in this case, 192.168.40.130. The output indicates that four packets were sent, with three replies received, resulting in a 25% packet loss, which suggests potential issues in the network path or with the target device. The round trip times for the received packets varied from a minimum of 0 milliseconds to a maximum of 17 milliseconds, with an average of 6 milliseconds, indicating that the device is reachable and responding, but the packet loss may signify intermittent connectivity problems or network congestion. Overall, the ping test provides valuable information about the health and performance of the network connection between the two devices.
 
-![description](assets/images/2025-06-10 12_53_55-PC-A2-PC-B1.png) 
+![description](assets/images/2025-06-10_12_53_55-PC-A2-PC-B1.png) 
 
 all the ping requests from department A to department B were successful as shown below.
 
 
-![description](assets/images/2025-06-10 12_58_31-successful_pings.png)
+![description](assets/images/2025-06-10_12_58_31-successful_pings.png)
 
 
 
