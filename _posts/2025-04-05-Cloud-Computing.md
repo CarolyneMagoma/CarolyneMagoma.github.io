@@ -49,7 +49,7 @@ This time, the bucket returned an XML directory listing with one file:
 
 <Key>The_flag_from_heaven.txt</Key>
 
-![s3 directory listing](/assets/images/2025-05-04%2015_58_34-vuln4ppcl0uds3c.s3.amazonaws.com%20-%20Brave.png)
+![s3 directoey listing](/assets/images/2025-05-04_15_58_34-vuln4ppcl0uds3c.s3.amazonaws.com_-_Brave.png)
 
 <b>Retrieving the Flag<b>
 

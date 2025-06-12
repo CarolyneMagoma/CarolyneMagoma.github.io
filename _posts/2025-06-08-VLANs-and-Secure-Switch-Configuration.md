@@ -5,5 +5,3 @@ tags: [Networking]
 category: [Packet tracer projects]
 ---
 
-
-![alt text](/assets/images/2025-06-08%2019_41_07-.png)
